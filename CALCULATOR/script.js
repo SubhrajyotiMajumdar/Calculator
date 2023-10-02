@@ -1,21 +1,6 @@
 let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
 
-<script type="text/javascript">
-    const audio = new Audio();
-    audio.src = "./tap.mp3"
-</script>
-    /*
-    const button = document.getElementById('soundButton');
-
-    const audio = new Audio('C:\Users\hp\Desktop\LEARN TO CODE\WEB DEV\cwh\CALCULATOR\tap'); 
-
-    button.addEventListener('click', () => {
-        audio.play();
-    });
-</script>*/
-
-
 let string = "";
 let arr = Array.from(buttons);
 arr.forEach(button => {
